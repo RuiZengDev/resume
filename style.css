@@ -266,7 +266,7 @@ h2.section-title {
 .company::before,
 .organization::before,
 .awarder::before {
-    content: "at "
+    content: " "
 }
 
 .company,
@@ -293,12 +293,12 @@ ul.courses {
 ul.keywords li,
 ul.courses li {
     display: inline-block;
-    margin: 2px 2px 2px 0;
+    margin: 2px 2px 2px 0px;
     padding: 4px 5px 5px;
     font-size: .9rem;
     line-height: 1;
     text-transform: lowercase;
-    color: #3e6d8e;
+    color: #045b98;
     background-color: #dfeaf1;
     border: 0 solid #dfeaf1;
     white-space: nowrap;
@@ -459,9 +459,9 @@ ul.courses li:hover {
 }
 
 .level.master .bar::after,
-.level.native.speaker .bar::after {
+.level.英语六级 .bar::after {
     background: #59C596;
-    width: 10em;
+    width: 7.5em;
 }
 
 #references .item {
