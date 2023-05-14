@@ -6,14 +6,21 @@ ol,
 ul {
     list-style: none;
 }
+/* 
+<img src="https://lsky.winnerzr.ml/admin/2023/05/14/64606f52cb375.jpg" alt="Your Image" class="avatar">
 .avatar {
     position: absolute;
-    top: 30px;;
-    right: 370px;
+    top: 30px;
+    right: 0;
+    left: auto;
     width: 147.5px;
     height: 206.5px;
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 0%;
-  }
+  } 
+  
+  */
   
 blockquote,
 q {
