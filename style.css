@@ -6,7 +6,15 @@ ol,
 ul {
     list-style: none;
 }
-
+.avatar {
+    position: absolute;
+    top: 30px;;
+    right: 370px;
+    width: 147.5px;
+    height: 206.5px;
+    border-radius: 0%;
+  }
+  
 blockquote,
 q {
     quotes: none;
